@@ -6,10 +6,10 @@ export default function About() {
   const { ref: teamRef, isVisible: teamVisible } = useScrollAnimation()
 
   const teamMembers = [
-    { name: "Sree Charan Reddy M", image: "https://www.shutterstock.com/image-vector/vector-flat-illustration-grayscale-avatar-600nw-2264922221.jpg", role: "Lead Developer" },
-    { name: "Lalith Srinandan", image: "https://www.shutterstock.com/image-vector/vector-flat-illustration-grayscale-avatar-600nw-2264922221.jpg", role: "UI/UX Designer" },
-    { name: "Sudheep Aavula", image: "https://www.shutterstock.com/image-vector/vector-flat-illustration-grayscale-avatar-600nw-2264922221.jpg", role: "Backend Engineer" },
-    { name: "Vardaan Bhatia", image: "https://www.shutterstock.com/image-vector/vector-flat-illustration-grayscale-avatar-600nw-2264922221.jpg", role: "Product Manager" },
+    { name: "Sree Charan Reddy M", image: "/profile/charanpic.jpeg", role: "Lead Developer" },
+    { name: "Lalith Srinandan", image: "/profile/lalithpic.jpeg", role: "UI/UX Designer" },
+    { name: "Sudheep Aavula", image: "/profile/sudheeppic.jpeg", role: "Backend Engineer" },
+    { name: "Vardaan Bhatia", image: "/profile/vardaanpic.jpeg", role: "Product Manager" },
   ]
 
   return (

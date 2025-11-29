@@ -10,62 +10,70 @@ interface Right {
 }
 
 const rights: Right[] = [
-  {
-    title: "Right to Survival",
-    description:
-      "Every child has the right to life and to access the essential services needed for survival, including food, healthcare, and shelter.",
-    icon: "🛡️",
-    youtubeUrl: "https://www.youtube.com/watch?v=B7xIHMd1pXI",
-  },
-  {
-    title: "Right to Development",
-    description:
-      "Children have the right to develop to their full potential, including physical, mental, spiritual, moral, and social development.",
-    icon: "🌱",
-    youtubeUrl: "https://www.youtube.com/watch?v=1l1-xrh5mUU",
-  },
-  {
-    title: "Right to Protection",
-    description:
-      "Every child deserves protection from violence, abuse, neglect, exploitation, and all forms of harmful treatment.",
-    icon: "🔒",
-    youtubeUrl: "https://www.youtube.com/watch?v=HLJxB7XJEpU",
-  },
-  {
-    title: "Right to Participation",
-    description:
-      "Children have the right to express their views, be heard, and participate in decisions that affect them.",
-    icon: "🗣️",
-    youtubeUrl: "https://www.youtube.com/watch?v=8wGW3qHYDjU",
-  },
-  {
-    title: "Right to Education",
-    description:
-      "Every child has the right to quality education that develops their personality, talents, and mental and physical abilities.",
-    icon: "📚",
-    youtubeUrl: "https://www.youtube.com/watch?v=uQhKkHLSPLU",
-  },
-  {
-    title: "Right to Health",
-    description:
-      "Children have the right to the highest attainable standard of health, including preventive care and medical treatment.",
-    icon: "💚",
-    youtubeUrl: "https://www.youtube.com/watch?v=PvQH0K3UMEA",
-  },
-  {
-    title: "Right to Family",
-    description:
-      "Every child has the right to know their parents, be cared for by them, and maintain family relationships.",
-    icon: "👨‍👩‍👧‍👦",
-    youtubeUrl: "https://www.youtube.com/watch?v=8QhY-KlSmAc",
-  },
-  {
-    title: "Right to Expression",
-    description:
-      "Children have the right to freedom of thought, conscience, and religion, and the right to express themselves freely.",
-    icon: "💭",
-    youtubeUrl: "https://www.youtube.com/watch?v=7tHJ6hRWnvw",
-  },
+  {
+    title: "Right to Survival",
+    description:
+      "Every child has the right to life and to access the essential services needed for survival, including food, healthcare, and shelter.",
+    icon: "🛡️",
+    // New link: A right to survival | UNICEF South Sudan
+    youtubeUrl: "http://www.youtube.com/watch?v=Hh0EMFRmypE",
+  },
+  {
+    title: "Right to Development",
+    description:
+      "Children have the right to develop to their full potential, including physical, mental, spiritual, moral, and social development.",
+    icon: "🌱",
+    // New link: Convention on the Rights of the Child Explainer | UNICEF Canada
+    youtubeUrl: "http://www.youtube.com/watch?v=WO_yAe1RqXk",
+  },
+  {
+    title: "Right to Protection",
+    description:
+      "Every child deserves protection from violence, abuse, neglect, exploitation, and all forms of harmful treatment.",
+    icon: "🔒",
+    // New link: Protection from abuse | Cartoons for child rights | UNICEF
+    youtubeUrl: "http://www.youtube.com/watch?v=QGLnnk46UQ0",
+  },
+  {
+    title: "Right to Participation",
+    description:
+      "Children have the right to express their views, be heard, and participate in decisions that affect them.",
+    icon: "🗣️",
+    // New link: Right to Participation | Pratham Open School English
+    youtubeUrl: "http://www.youtube.com/watch?v=_2S63tSJkLc",
+  },
+  {
+    title: "Right to Education",
+    description:
+      "Every child has the right to quality education that develops their personality, talents, and mental and physical abilities.",
+    icon: "📚",
+    // New link: Rights of the Child Segment 1 - What are Childrens Rights | Global Teacher Prize
+    youtubeUrl: "http://www.youtube.com/watch?v=COjVj9czgrY",
+  },
+  {
+    title: "Right to Health",
+    description:
+      "Children have the right to the highest attainable standard of health, including preventive care and medical treatment.",
+    icon: "💚",
+    // New link: A Child's Right to Health Part 1 | World Vision EU Representation
+    youtubeUrl: "http://www.youtube.com/watch?v=c9Qv4VIZb_M",
+  },
+  {
+    title: "Right to Family",
+    description:
+      "Every child has the right to know their parents, be cared for by them, and maintain family relationships.",
+    icon: "👨‍👩‍👧‍👦",
+    // New link: RIGHTS and RESPONSIBILITIES of Children 👧🏻👦🏻📖 | Smile and Learn
+    youtubeUrl: "http://www.youtube.com/watch?v=TafvHxXFzUM",
+  },
+  {
+    title: "Right to Expression",
+    description:
+      "Children have the right to freedom of thought, conscience, and religion, and the right to express themselves freely.",
+    icon: "💭",
+    // New link: Right to Self Expression | Cartoons for Child Rights | UNICEF
+    youtubeUrl: "http://www.youtube.com/watch?v=mV8L9xC0ZYA",
+  },
 ]
 
 interface SelectedRight extends Right {
